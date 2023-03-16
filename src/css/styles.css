@@ -1,0 +1,129 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: rgb(241, 241, 241);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(211, 22, 22);
+    justify-content: center;
+    height: 60px;
+}
+
+nav {
+    height: 80px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.menu li {
+    display: inline;
+    padding: 20px;
+}
+
+.menu li a:visited {
+    color: white;
+}
+
+.menu li a:hover {
+    color: rgb(255, 208, 0);
+    transition: 1s;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.noticia {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    border-bottom: 1px solid rgba(177, 177, 177, 0.667);
+    align-items: center;
+}
+
+.noticia__informacoes {
+    padding-left: 20px;
+}
+
+.categoria {
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid;
+    margin: 20px;
+}
+
+
+.noticia h2 {
+    padding: 20px;
+}
+
+.noticia p {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.ver-mais {
+    font-size: 10pt;
+    margin: 20px;
+    padding: 15px;
+    color: rgb(255, 1, 1);
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+.ver-mais:hover {
+    font-size: 10pt;
+    margin: 20px;
+    padding: 15px;
+    color: rgb(158, 19, 19);
+    border: 1px solid gray;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.imagens {
+    max-width: 600px;
+    max-height: 400px;
+    padding: 40px 0 40px 0;
+}
+
+.container-lidas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mais-lidas {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: 20px 0 50px 0;
+    padding: 60px;
+    gap: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 2x 2px 2px rgb(204, 204, 204);
+}
+
+.mais-lidas .ver-mais {
+    margin: 0px;
+}
+
+h3 {
+    padding-bottom: 20px;
+    font-size: 13pt;
+}
